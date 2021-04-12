@@ -31,7 +31,14 @@ def api_id():
                 return jsonify(entry)
             
     return abort(404) # Returns 404 if no id is given or if id is not found
-    
+
+@app.route('/api/test', methods=['GET', 'POST'])
+def test_request():
+    print(request.args)
+    print(request.form)
+    print(request.files)
+    print(request.json)
+    return "Yee"
     
 
 app.run()

@@ -4,9 +4,6 @@ This is the home to the OctaneAPI. This porject is designed to interact as the b
 </br>
 </br>
 </br>
-</br>
-</br>
-</br>
 
 # Project Scope
 <center>
@@ -20,13 +17,13 @@ This is the overall scope of the entire project. However, the focal point of the
 </br>
 </br>
 </br>
-</br>
-</br>
-</br>
 
 # The focus of this repo
 
-This repo is home to the code of this projects API, our **Application Programming Interface**. This is to allow any client to request user information from the database set up to house all of the user data. It's also our gateway of updating data in the database. 
+This repo is home to the code of this projects API, our **Application Programming Interface**. This is to allow any client to request user information from the database set up to house all of the user data. It's also our gateway of updating data in the database.
+
+# Security
+The security of this API is set around JSON Web Token (JWTs). See Issue #3 for the expected workflow of developing the client authentication. See [Token based authentication with flask](https://realpython.com/token-based-authentication-with-flask/) for a more in-depth analysis of what went into creating this. If any vulnerabilities or other types of problems emurge from this, please open a new issue with the word "Security" in the title.
 
 
 
